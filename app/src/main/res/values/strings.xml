@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lights_out</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lights_3x3">Lights_3x3</string>
+    <string name="title_activity_lights_4x4">Lights_4x4</string>
+    <string name="title_activity_lights_5x5">Lights_5x5</string>
+</resources>

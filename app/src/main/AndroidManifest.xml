@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sneh.lights_out" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/index"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Lights_out"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lights_3x3"
+            android:label="@string/title_activity_lights_3x3" >
+        </activity>
+        <activity
+            android:name=".Lights_4x4"
+            android:label="@string/title_activity_lights_4x4" >
+        </activity>
+        <activity
+            android:name=".Lights_5x5"
+            android:label="@string/title_activity_lights_5x5" >
+        </activity>
+    </application>
+
+</manifest>
